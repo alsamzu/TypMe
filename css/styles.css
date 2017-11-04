@@ -1,15 +1,36 @@
 body{
     background-color:white;
 }
+h1{
+    text-decoration: underline;
+    text-decoration-color:greenyellow;
+}
+h5{
+     text-shadow: 2px 2px 5px greenyellow;
+}
 
 h1,h5{
     color:black;
     font-family: 'Oswald', sans-serif;
     font-size: 80px;
-    text-decoration: underline;
-    text-decoration-color:greenyellow;
+    
 }
 p{
-     font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
+}
+#typo{
+    
+    width: 50%;
+    height: 30%;
+    background:white;
+
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;}
+
+#typo:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
 }
